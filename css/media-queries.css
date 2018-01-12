@@ -1,0 +1,117 @@
+@media only screen and (max-width: 959px) {
+
+    .site-logo {
+        position: absolute;
+        left: 15px;
+        top: 15px;
+    }
+
+    .mobile-nav-button {display: block;}
+
+    .nav-container {display: block;}
+
+    .nav-menu {
+        display: none;
+        position: absolute;
+        top: 74px;
+        width: 100%;
+        height: auto;
+        background: rgba(208, 210, 220,0.97);
+        margin: 0;
+        padding: 0 14px 10px 14px;
+    }
+
+    .nav-menu li {
+        display: block;
+        padding: 10px 0px;
+    }
+
+    .nav-menu li a {
+        padding: 0px;
+        font-size: 16px;
+    }
+
+    .nav-menu li a::after {content: "";}
+
+    .nav-menu li:hover {background-color: rgb(209, 212, 223);}
+
+    .nav-menu li:active {background-color: rgb(209, 212, 223);}
+    
+
+    .text-content {column-count: 1;}
+
+    .div-in-text {text-align: center;}
+
+    .video h3 {text-align: center !important;}
+
+    .video-frame {
+        width: 560px;
+        height: 315px;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 568px) and (max-width: 768px) {
+
+    h1 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    h2 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    h3 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .header-image-caption {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .video h3 {text-align: center !important;}
+
+    .video-frame {
+        width: 437px;
+        height: 246px;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 567px) {
+
+    h1 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    h2 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    h3 {
+        font-size: 18px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .container-middle, .container-fullwidth {padding: 0px 30px 40px 30px}
+
+    .column-two {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .video-frame {
+        width: 320px;
+        height: 180px;
+    }
+}
